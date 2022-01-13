@@ -1,0 +1,45 @@
+{
+    "name": "Mouse",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "38416ef2-156c-4dc1-b826-a37e97918d2a",
+            "actions": [
+                {
+                    "name": "MouseLook",
+                    "type": "Value",
+                    "id": "5f5ebb94-9897-48f1-b4ed-9fc2c04a3f11",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d6b49e74-4251-4d20-af79-68a0dea42d70",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseMovement",
+                    "action": "MouseLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "MouseMovement",
+            "bindingGroup": "MouseMovement",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
