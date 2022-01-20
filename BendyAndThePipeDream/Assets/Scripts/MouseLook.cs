@@ -5,17 +5,25 @@ using UnityEngine.InputSystem;
 
 public class MouseLook : MonoBehaviour
 {
-    private InputMaster controls;
+    public InputMaster controls;
 
-    public float mouseSensitivity = 25f;
+    public float mouseSensitivity = 20f;
+
     private Vector2 mouseLook;
+
     private float xRotation = 0f;
-    public Transform playerBody;
+
+    public Transform playerbody;
 
     private void Awake()
     {
         controls = new InputMaster();
         Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    private void FixedUpdate()
+    {
+        Look();
     }
 
     private void Look()
@@ -29,7 +37,7 @@ public class MouseLook : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
-        playerBody.Rotate(Vector3.up * mouseX);
+        playerbody.Rotate(Vector3.up * mouseX);
     }
 
     private void OnEnable()
