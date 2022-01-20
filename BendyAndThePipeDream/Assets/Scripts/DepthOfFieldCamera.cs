@@ -12,6 +12,7 @@ public class DepthOfFieldCamera : MonoBehaviour
     bool isHit;
     float hitDistance;
 	public float hitlimit;
+	public float FocusSpeed;
 
 	DepthOfField dof;
 	public Volume Postvolume;
@@ -46,7 +47,7 @@ public class DepthOfFieldCamera : MonoBehaviour
 
 	void SetFocus()
 	{
-		dof.focusDistance.value = hitDistance;
+		dof.focusDistance.value = Mathf.Lerp(dof.focusDistance.value, hitDistance, Time.deltaTime * FocusSpeed);
 	}
 
 	private void OnDrawGizmos()

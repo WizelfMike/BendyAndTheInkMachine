@@ -3844,6 +3844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitlimit: 100
+  FocusSpeed: 8
   Postvolume: {fileID: 1725506457}
 --- !u!1 &1032104157
 GameObject:
