@@ -23133,6 +23133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2115880592}
+  - component: {fileID: 2115880593}
   m_Layer: 0
   m_Name: group1
   m_TagString: Untagged
@@ -23159,6 +23160,19 @@ Transform:
   m_Father: {fileID: 2115529428}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -60, z: 0}
+--- !u!65 &2115880593
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115880591}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05160511, y: 0.04832749, z: 0.027731122}
+  m_Center: {x: -0.000676727, y: 0.027830493, z: 0.00095008616}
 --- !u!1 &2123415160
 GameObject:
   m_ObjectHideFlags: 0
@@ -23694,6 +23708,7 @@ GameObject:
   - component: {fileID: 7009931263402326373}
   - component: {fileID: 174445042480233442}
   - component: {fileID: 5133396148775081064}
+  - component: {fileID: 7009931263402326374}
   m_Layer: 0
   m_Name: group2_Tafelpoot_1
   m_TagString: Untagged
@@ -24451,6 +24466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7403194540486032660}
+  - component: {fileID: 7403194540486032661}
   m_Layer: 0
   m_Name: group1
   m_TagString: Untagged
@@ -24765,6 +24781,19 @@ Transform:
   m_Father: {fileID: 543450653465661185}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -7.368, z: 0}
+--- !u!65 &7009931263402326374
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221374812425240768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02818674, y: 0.047039323, z: 0.025291843}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &7171267670474019857
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -24925,6 +24954,19 @@ Transform:
   m_Father: {fileID: 8341273786183996810}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -60, z: 0}
+--- !u!65 &7403194540486032661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5140397481619660347}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05160511, y: 0.04832749, z: 0.027731122}
+  m_Center: {x: -0.000676727, y: 0.027830493, z: 0.00095008616}
 --- !u!4 &7444608921279453805
 Transform:
   m_ObjectHideFlags: 0
